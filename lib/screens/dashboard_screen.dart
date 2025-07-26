@@ -4,6 +4,7 @@ import 'package:jewellery_billing_app/screens/login_screen.dart'; // For logout
 import 'package:jewellery_billing_app/screens/product_dashboard_screen.dart';
 import 'package:jewellery_billing_app/screens/billing_screen.dart';
 import 'package:jewellery_billing_app/screens/reports_screen.dart';
+import 'package:jewellery_billing_app/screens/customer_dashboard_screen.dart'; // New import
 
 class DashboardScreen extends StatelessWidget {
   @override
@@ -55,6 +56,15 @@ class DashboardScreen extends StatelessWidget {
               onTap: () {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => ReportsScreen()));
+              },
+            ),
+            _buildDashboardCard( // New Customer Management Card
+              context,
+              icon: Icons.people,
+              title: 'Customer Management',
+              onTap: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => CustomerDashboardScreen()));
               },
             ),
             // Add more cards as needed
