@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "933527022311",
+    "project_id": "billing-4c564",
+    "storage_bucket": "billing-4c564.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933527022311:android:9537f180481b831d25d042",
+        "android_client_info": {
+          "package_name": "com.example.jewellery_billing_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPnp71T44ivBd7o4kCnZAGeE4R4YXscwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
